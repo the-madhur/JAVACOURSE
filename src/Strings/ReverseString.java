@@ -4,6 +4,8 @@ public class ReverseString
 {
         public static void main(String[] args) {
             
+            // case 1 = rudham  -- Reverse
+
             String str1 = "madhur";
             String str2 = " ";
     
