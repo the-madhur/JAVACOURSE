@@ -1,5 +1,8 @@
 package Constructor;
 
+// Constructor - Same name as Class name, No any return type, Called during creation of object
+// Default Constructor -- Automatically created while creation of object, No parameters passed 
+// Parameterized Constructor
 class Student1
 {
     private String name;
