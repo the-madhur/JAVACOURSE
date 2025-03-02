@@ -1,7 +1,8 @@
 package Constructor;
 
 // Constructor - Same name as Class name, No any return type, Called during creation of object
-// Default Constructor -- Automatically created while creation of object, No parameters passed 
+// Default Constructor -- Automatically created behind the process while creation of object, No parameters passed
+// whenver we create a object for any class Default Constructor automatically created Behind the process and code executes
 // Parameterized Constructor  -- Not Automatically created , Pass parameters inside
 // if we created parameterized constructor and we also call default constructor so it can not create automatically 
 // because JVM thinks programmer knows the concept of Constructor so we need to create it 
@@ -10,7 +11,7 @@ class Student1
     private String name;
     private int rollNo;
 
-    public Student1()   // Default constructor
+    public Student1()   // Default constructor or Zero Parameterized Constructor
     {
         System.out.println("Default Constructor can called by programmer");
     }
