@@ -15,6 +15,7 @@ class Student1
     {
         System.out.println("Default Constructor can called by programmer");
     }
+    
     public Student1(String name, int rollNo)  // Parameterized Constructor
     {
         this.name = name;
