@@ -16,4 +16,9 @@ public class User
         System.out.println(userName+" logged in");
     }
 
+    public void showDashboard()
+    {
+        System.out.println(userName + "'s dashboard");
+    }
+
 }
