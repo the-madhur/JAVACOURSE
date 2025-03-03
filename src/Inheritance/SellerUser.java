@@ -12,4 +12,9 @@ public class SellerUser extends User
         System.out.println("Seller is adding a new product");
     }
 
+    @Override
+    public void showDashboard()
+    {
+        System.out.println("Seller user 's personalized dashboard");
+    }
 }
