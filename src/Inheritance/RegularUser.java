@@ -12,4 +12,9 @@ public class RegularUser extends User
         System.out.println("Customer is browsing product");
     }
 
+    @Override
+    public void showDashboard()
+    {
+        System.out.println("Regular user 's personalized dashboard");
+    }
 }
