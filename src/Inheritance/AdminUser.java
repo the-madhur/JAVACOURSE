@@ -12,11 +12,11 @@ public class AdminUser extends User
         System.out.println("Admin is managing products");
     }
 
-    // @Override
-    // public void showDashboard()
-    // {
-    //     System.out.println("Admin user specialised dashboard");
-    // }
+    @Override
+    public void showDashboard()
+    {
+        System.out.println("Admin user specialised dashboard");
+    }
 
     public static void main (String[] args)
     {
