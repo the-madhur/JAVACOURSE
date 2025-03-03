@@ -2,7 +2,7 @@ package Inheritance;
 
 public class User 
 {
-    private String userName;
+    protected String userName;  // protected - this can help to be accessible by all the sub classes
     private String email;
 
     public User(String userNamme, String email)
