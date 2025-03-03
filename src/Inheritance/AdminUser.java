@@ -12,7 +12,7 @@ public class AdminUser extends User
         System.out.println("Admin is managing products");
     }
 
-    @Override
+    @Override // Purpose of use this OVERRIDE annotation is actually make sure that something is overwritten
     public void showDashboard()
     {
         System.out.println("Admin user specialised dashboard");
