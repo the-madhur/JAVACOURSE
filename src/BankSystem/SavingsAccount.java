@@ -7,6 +7,7 @@ public class SavingsAccount extends BankAccount
         super(accountHolder, balance);
     }
 
+    @Override
     public void deposit(double amount)
     {
         if(amount>0)
@@ -20,16 +21,17 @@ public class SavingsAccount extends BankAccount
         }
     }
     
+    @Override
     public void withdraw(double amount)
     {
-        if(amount>0)
+        if(amount>0 && amount <= balance) //that amount you want to withdraw is less or equal to the present balance amount in your bank 
         {
-            balance = balance + amount;
-            System.out.println("₹" + amount +" deposited in Savings Account...");
+            balance = balance - amount;
+            System.out.println("₹" + amount + " withdrawn from Savings Account...");
         }
         else 
         {
-            System.out.println("Invalid Deposit Amount");
+            System.out.println("Invalid withdrawl amount or Insufficient balance!");
         }
     }
 }
