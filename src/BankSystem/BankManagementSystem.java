@@ -61,7 +61,8 @@ public class BankManagementSystem
 
                 case 4:
                 System.out.println("Thank you for using the Bank Mangement System!");
-                break;
+                sc.close();
+                System.exit(0);
 
                 default:
                 System.out.println("Invalid choice! Please try again.");
