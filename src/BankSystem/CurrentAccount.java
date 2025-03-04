@@ -14,7 +14,7 @@ public class CurrentAccount extends BankAccount
         if(amount>0)
         {
             balance = balance + amount;
-            System.out.println("₹" + amount +" deposited in Current Account...");
+            System.out.println(amount +" deposited in Current Account...");
         }
         else 
         {
@@ -28,7 +28,7 @@ public class CurrentAccount extends BankAccount
         if(amount > 0 && (balance + overdraftLimit) >= amount) //that amount you want to withdraw is less or equal to the present balance amount in your bank 
         {
             balance = balance - amount;
-            System.out.println("₹" + amount + " withdrawn from Current Account...");
+            System.out.println(amount + " withdrawn from Current Account...");
         }
         else 
         {

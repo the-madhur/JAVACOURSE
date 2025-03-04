@@ -15,7 +15,7 @@ public class BankManagementSystem
 
         System.out.println("Enter Account Holder's Name: ");
         String name = sc.nextLine();
-        System.out.println("Enter Balance: ₹");
+        System.out.println("Enter Balance: ");
         double balance = sc.nextDouble();
 
         BankAccount account;
@@ -44,13 +44,13 @@ public class BankManagementSystem
             switch(choice)
             {
                 case 1:
-                System.out.println("Enter deposit amount: ₹");
+                System.out.println("Enter deposit amount: ");
                 double depositAmount = sc.nextDouble();
                 account.deposit(depositAmount);
                 break;
 
                 case 2:
-                System.out.println("Enter withdrawl amoubt: ₹");
+                System.out.println("Enter withdrawl amoubt: ");
                 double withdrawAmount = sc.nextDouble();
                 account.withdraw(withdrawAmount);
                 break;

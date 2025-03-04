@@ -13,7 +13,7 @@ public class SavingsAccount extends BankAccount
         if(amount>0)
         {
             balance = balance + amount;
-            System.out.println("₹" + amount +" deposited in Savings Account...");
+            System.out.println(amount +" deposited in Savings Account...");
         }
         else 
         {
@@ -27,7 +27,7 @@ public class SavingsAccount extends BankAccount
         if(amount>0 && amount <= balance) //that amount you want to withdraw is less or equal to the present balance amount in your bank 
         {
             balance = balance - amount;
-            System.out.println("₹" + amount + " withdrawn from Savings Account...");
+            System.out.println(amount + " withdrawn from Savings Account...");
         }
         else 
         {

@@ -16,6 +16,6 @@ public abstract class BankAccount
 
     public void checkBalance()
     {
-        System.out.println(accountHolder + "'s current balance: ₹"+ balance);
+        System.out.println(accountHolder + "'s current balance: "+ balance);
     }
 }
