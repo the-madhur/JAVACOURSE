@@ -1,5 +1,6 @@
 package ConsTructorInheritance;
 
+// Super()  Super method helps to call parent class Constructor in case of Inheritance  
 class Demo1
 {
     int m,n;
