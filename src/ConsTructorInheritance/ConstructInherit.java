@@ -28,7 +28,7 @@ class Demo2 extends Demo1
 
     public Demo2(int x, int y)
     {
-        super();
+        super(10,20);
         System.out.println("Child Class Parameterized Constructor....");
     }
 }
@@ -37,7 +37,7 @@ public class ConstructInherit
     public static void main(String[] args) 
     {
         Demo2 d1 = new Demo2();
-        //Demo2 d2 = new Demo2(10,20);
+        Demo2 d2 = new Demo2(10,20);
         
     }
 
