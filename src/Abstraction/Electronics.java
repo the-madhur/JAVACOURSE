@@ -26,5 +26,4 @@ public class Electronics extends Product
         return 10.0;
     }
     
-
 }
