@@ -18,7 +18,7 @@ public class EmailService implements NotificationsService
     @Override
     public void subscribeToTopic(String topic) 
     {
-        System.out.println("Subscribed "+email+" email notifications for topic: ");
+        System.out.println("Subscribed "+email+" email notifications for topic: "+topic);
     }
 
 }
