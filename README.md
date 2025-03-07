@@ -1,7 +1,9 @@
 Java & Spring Boot Learning Journey 🚀
+
 Welcome to my Java & Spring Boot Learning Journey repository! This repository documents my progress as I explore Java development, backend frameworks, and software design principles. It includes my learnings from Core Java to Spring Boot, as well as key software engineering concepts like Object-Oriented Programming (OOP) and Design Patterns.
 
 📌 Learning Path
+
 I am currently focusing on the following topics:
 
 1️⃣ Core Java
@@ -25,13 +27,17 @@ Common Design Patterns (Singleton, Factory, Observer, etc.)
 Microservices architecture basics
 
 📚 Resources & Course Materials
+
 This repository is a collection of notes, code implementations, and mini-projects that reflect my learning process. Some of the main resources I follow include:
 
 Spring Boot & Java playlists on YouTube
+
 Java documentation & books like "Effective Java" by Joshua Bloch
+
 Hands-on practice via LeetCode & DSA exercises
 
 🚀 Upcoming Topics
+
 As I advance, I plan to explore:
 
 SQL & Database Design (PostgreSQL, MySQL)
@@ -54,6 +60,9 @@ The repository is organized as follows:
 Feel free to fork this repository and contribute! You can add your own notes, code snippets, or suggest improvements via pull requests.
 
 📖 How to Use This Repository
+
 Each topic has its own README file for easy navigation
+
 Code is well-commented to explain key concepts
+
 Clone the repository and try out the code snippets yourself!
