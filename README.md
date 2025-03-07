@@ -57,6 +57,7 @@ The repository is organized as follows:
 📂 Low Level Design Principles - Code snippets demonstrating SOLID and common patterns
 
 🤝 Contributing
+
 Feel free to fork this repository and contribute! You can add your own notes, code snippets, or suggest improvements via pull requests.
 
 📖 How to Use This Repository
