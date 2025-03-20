@@ -10,7 +10,7 @@ public class SMSnotificationService implements NotificationsService
     }
 
     @Override
-    public void sendNotifiactions(String message)
+    public void sendNotifications(String message)
     {
         System.out.println("Sending notifications to "+phoneNumber);
     }
