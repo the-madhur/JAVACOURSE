@@ -10,7 +10,7 @@ public class EmailService implements NotificationsService
     }
 
     @Override
-    public void sendNotifiactions(String message) 
+    public void sendNotifications(String message) 
     {
        System.out.println("Sending email notifications to "+email);
     }
